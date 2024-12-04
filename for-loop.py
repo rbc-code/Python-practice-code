@@ -53,10 +53,23 @@
 #         print(i*2)  
 #==============================================================
 
-n=int(input("Enter no"))
-for i in range(1,n+1):
-    if i<=(n-1):
-        print(i*2-1,end=',')
-    else:
-        print(i*2-1)  
+# n=int(input("Enter no"))
+# for i in range(1,n+1):
+#     if i<=(n-1):
+#         print(i*2-1,end=',')
+#     else:
+#         print(i*2-1)  
+#=================================================================
 
+# colours= ["Red", "Black", "Green"]
+# for color in colours:
+#     print(color)
+#     for i in color:
+#         print(i)
+#=====================================================
+
+n=int(input("Enter no"))
+for i in range(1,n*2,2):
+    print(i)
+
+    
